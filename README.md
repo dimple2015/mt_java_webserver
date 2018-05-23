@@ -17,7 +17,7 @@ This will create a folder "mt_java_webserver" containing the project source file
 
     $  mvn clean compile assembly:single
 
-4. This will create a "target" folder containing the application jar file: mt_java_webserver-0.0.1-SNAPSHOT-jar-with-dependencies.jar  
+4. This will create a "target" folder containing the application jar file with the dependencies: mt_java_webserver-0.0.1-SNAPSHOT-jar-with-dependencies.jar  
 
 Usage
 =============================
@@ -26,11 +26,11 @@ java -jar target/mt_java_webserver-0.0.1-SNAPSHOT-jar-with-dependencies.jar <POR
 Note: The parameter PORT_NUMBER is optional, default port is 4444
 
 Example API usages via POSTMAN
-1. POST /v1/file : http://localhost:4444/v1/file?filename=sample.xml&filepath=/tmp and select the file to be uploaded in the Request body.
+1. POST /v1/file : http://localhost:4444/v1/file?filename=sample.xml&filepath=/tmp and select the "binary" option in the request body and attach the file to be uploaded.
 
 2. GET /v1/file : http://localhost:4444/v1/file?filenamewithpath=/tmp/sample.xml
 
-3. DELETE /v1/file: http://localhost:4444/v1/file?filenamewithpath=/tmp/sample.xml
+3. DELETE /v1/file : http://localhost:4444/v1/file?filenamewithpath=/tmp/sample.xml
 
 To stop the Simple Web server, just press Ctrl+C on the command line.
 
