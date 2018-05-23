@@ -40,5 +40,4 @@ https://docs.oracle.com/javase/8/docs/jre/api/net/httpserver/spec/com/sun/net/ht
 https://docs.oracle.com/javase/8/docs/jre/api/net/httpserver/spec/com/sun/net/httpserver/HttpExchange.html
 https://docs.oracle.com/javase/8/docs/api/?java/io/File.html
 https://docs.oracle.com/javase/tutorial/essential/concurrency/pools.html
-
 https://www.mkyong.com/logging/log4j-hello-world-example/
