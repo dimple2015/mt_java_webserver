@@ -7,7 +7,7 @@ For the Thread Pool, it sets a limit of 10 threads
 Compiling
 =====================
 1. You will need Java 1.8 and Maven 3.3 to compile the project.
-2. Download the project source code from GitHub repository (https://github.com/dimple2015/mt_java_webserver)
+2. Download the project source code from GitHub repository (https://github.com/dimple2015/mt_java_webserver.git)
 
     $ git clone git://github.com/dimple2015/mt_java_webserver
 
